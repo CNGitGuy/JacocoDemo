@@ -2,10 +2,10 @@ Jacoco代码覆盖率Demo
 
 ### 生成的代码覆盖率结果
 
-总结分析
+### 总结分析
 <img src="screenshot/jacoco.png" width="80%">
 
-分析每一行代码
+### 分析每一行代码
 <img src="screenshot/jacoco2.png" width="80%">
 
 
@@ -23,7 +23,7 @@ adb shell am instrument r.com.jacocodemo/r.com.jacocodemo.test.JacocoInstrumenta
 
 
 4.导出coverage.ec使用gradle jacocoTestReport分析覆盖率文件并生成html报告
-<img src="screenshot/jacocoTestReport.png" width="40%">
+<img src="screenshot/jacocoTestReport.png" width="35%">
 
 
 5.查看覆盖率html报告(...\JacocoDemo\app\build\reports\jacoco\jacocoTestReport\html)
