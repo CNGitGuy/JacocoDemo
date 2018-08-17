@@ -19,14 +19,17 @@ adb shell am instrument r.com.jacocodemo/r.com.jacocodemo.test.JacocoInstrumenta
 
 
 3.进行app手工测试，测试完成后退出App，覆盖率文件会保存在手机/data/data/r.com.jacocodemo/files/coverage.ec目录
+
 <img src="screenshot/coverage_file.png" width="80%">
 
 
 4.导出coverage.ec使用gradle jacocoTestReport分析覆盖率文件并生成html报告
-<img src="screenshot/jacocoTestReport.png" width="35%">
+
+<img src="screenshot/jacocoTestReport.png" width="40%">
 
 
 5.查看覆盖率html报告(...\JacocoDemo\app\build\reports\jacoco\jacocoTestReport\html)
+
 <img src="screenshot/jacoco_index.png" width="80%">
 
 
